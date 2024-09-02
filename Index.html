@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Portfolio</title>
+  <title>Antti Aho</title>
   <style>
     /* Add your CSS styles here */
     body {
@@ -11,6 +11,9 @@
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
     header {
       background-color: #333;
@@ -31,15 +34,13 @@
       padding: 20px;
       margin: 20px;
       background-color: #fff;
+      flex-grow: 1;
     }
     footer {
       text-align: center;
       padding: 10px 0;
       background-color: #333;
       color: #fff;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
     }
     .portfolio-item {
       margin-bottom: 30px;
@@ -52,7 +53,7 @@
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
+    <h1>Antti Aho</h1>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
@@ -64,29 +65,36 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>My name is Antti. I am a 17 year old freshman programming student in OSAO, studying many different programming languages. These languages include C#, Python, Luascript, HTML, CSS and JS.</p>
+    <p>My name is Antti. I am a 17 year old freshman programming student in OSAO, studying many different programming languages. These languages include C#, Python, Luascript, HTML, CSS and JS. My web developing skills are not very impressive, though, since my studies mostly focus on game development.</p>
   </section>
 
   <section id="portfolio">
     <h2>Portfolio</h2>
     <div class="portfolio-item">
-      <img src="image1.jpg" alt="Project 1">
       <h3>Late Christmas</h3>
+      <img src="Chrimas.png" alt="Project 1"
+           width="600"
+           height="400">
       <p>My first ever videogame project was a 2D platformer game in Unity. You play as Santa Claus, and the game's idea is to deliver either as many presents as you can in 60 seconds, or deliver the required amount of presents as fast as possible.</p>
     </div>
     <div class="portfolio-item">
-      <img src="image2.jpg" alt="Project 2">
       <h3>Gun Guy Zombies</h3>
+      <img src="GGZ.png" alt="Project 1"
+           width="600"
+           height="400">
       <p>My second videogame was a group project with three people, a 3D spin-off of Gun Guy, which was a 2D-game of another group member. Starting out as a horror game, it consists of going through a forest, completing tasks while avoiding zombies. At the end, you reach a shack, where you find a gun, and start killing the zombies.</p>
     </div>
     <div class="portfolio-item">
-      <img src="image3.jpg" alt="Project 3">
       <h3>Arctic Playground</h3>
+      <video controls width="600" height="400">
+        <source src="ArcticPlaygroundAD.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <p>My third videogame was another group project, a VR sandbox game showcased in Vectorama, which is a yearly online gaming event in Finland. The game consists of playing around with snow in an open area, allowing you to grab snowballs from the ground, throw them at targets, build a snowman and decorate it, form snow cubes and build with them.</p>
     </div>
     <div class="portfolio-item">
-      <img src="image4.jpg" alt="Project 4">
       <h3>Project 4</h3>
+      <img src="image4.jpg" alt="Project 4">
       <p>Description of Project 4.</p>
     </div>
     <!-- Add more portfolio items as needed -->
@@ -94,13 +102,13 @@
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: your.email@example.com</p>
-    <p>Phone: +1234567890</p>
-    <!-- Add a contact form or other contact details as needed -->
+    <p>Email: antti.aho356@gmail.com</p>
+    <p>Phone: +358401945991</p>
+    <p>Discord: 352134024870887424</p>
   </section>
 
   <footer>
-    <p>&copy; 2024 Your Name</p>
+    <p>&copy; 2024 Antti Mikael Aho</p>
   </footer>
 </body>
 </html>
